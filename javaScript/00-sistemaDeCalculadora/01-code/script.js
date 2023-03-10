@@ -1,14 +1,20 @@
 
 function login() {
+
     const senhaCorreta = 'senha@123'
     var senha = window.document.getElementById("txtSenha").value
 
     if (senhaCorreta == senha) {
-        alert("Senha correta")  
+       abrirPagina()  
         
     } else {
         alert("Senha incorreta")
     }
     
+    
+}
+
+function abrirPagina() {
+    location.replace("sistemaCalculadora.html", "_self");
     
 }
