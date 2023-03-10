@@ -6,20 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistema de Cacular</title>
     <script src="script.js"></script>
+
+    <style>
+
+        body {
+
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #050cd2;
+            color: #050cd2;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .conteudo {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 400pt;
+            width: 500pt;
+           
+            background-color: rgb(224, 19, 221);
+            border: 2px;
+            box-shadow: -10pt -10pt #29f6f3;
+        }
+
+    </style>
 </head>
 <body>
 
-<h1>Calcular a Área do Círculo</h1>
-<p>A fórmula para se calcular a área do círculo é: <br>
-<b>A = pi . r²</b>
-<br>
-</p>
+    <div class="conteudo">
+        <h1>Calcular a Área do Círculo (cm²)</h1>
+        A fórmula para se calcular a área do círculo é:
+        <b>A = pi . r²</b>
+        <p></p>   
+        <Label>Raio do Círculo</Label>
+        <input id="txtRaioCirculo" type="number">
+        <button onclick="calcularAreaCirculo()">Calcular Área do Círculo</button>
+        
+        <h2 id="resAreaCirculo">Resposta</h2>
+    </div>
 
-<Label>Raio do Círculo</Label>
-<input id="txtRaioCirculo" type="number">
-<button onclick="calcularAreaCirculo()">Calcular Área do Círculo</button>
-<br>
-<h2 id="resAreaCirculo">Resposta</h2>
 
 </body>
 </html>
