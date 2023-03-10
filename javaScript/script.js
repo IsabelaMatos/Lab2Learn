@@ -1,22 +1,13 @@
- //----------------calcular volume da esfera-----------------
- //coletar dados
+var tabuada = 7
+var porQuanto = 0
 
-var r = 7.15
-const pi = 3.14
+var contador = 11
 
-//calcular
-volume = (((4 * pi )* r**3) /3)
 
-//exibir
-console.log('O volume da sua esfera é: '+volume+'cm³')
-//calcular e exibir a área do retângulo
-//-------coletar dados---------
-var base = 10
-var altura = 10
+while (contador > 0){
+    res = tabuada * porQuanto
+    console.log(`${tabuada} X ${porQuanto} = ${res}`)
+    contador = contador -1
+    porQuanto = porQuanto +1
+}
 
-//calcular a área
-a = base*altura
-
-//exibir resultado
-console.log('A área do seu retângulo é de '+a+'cm²')
-console.log(`A área ${base} do retângulo é de ${a}cm²`)
