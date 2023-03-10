@@ -1,7 +1,7 @@
 
 function login() {
 
-    const senhaCorreta = 'senha@123'
+    const senhaCorreta = 'Senha@123'
     var senha = window.document.getElementById("txtSenha").value
 
     if (senhaCorreta == senha) {
