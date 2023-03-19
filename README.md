@@ -81,7 +81,7 @@ if(n1 != 10){
 
 * Compara se é Maior: 
 
-    >
+>
 
  **Exemplo:**
 
