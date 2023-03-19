@@ -32,15 +32,23 @@ function calcularAreaCirculo(){
     // Processa os dados
     // ----> Criar um teste Lógico para ver se o Campo está Vazio
     // if(raioCirculo == null) 
+    const pi = 3.14
+    var Resposta = pi*raioCirculo**2
 
-
+    if (raioCirculo == null || raioCirculo == 0) {
+        alert("Digite um número válido")
+    } else {
+        
+    }
 
 
     // Devolve valor
-    window.document.getElementById("resAreaCirculo").innerText = "Resposta"
+    window.document.getElementById("resAreaCirculo").innerText = Resposta
 }
 
 
 //-----------------------------------------------------------------------------------
 
-
+function calcularVolumeEsfera(){
+    
+}
