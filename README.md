@@ -27,6 +27,186 @@ Esse material está sendo desenvolvido como "Guia de Aprendizado" de lógica de 
 * Funções
 
 ---
+### (O que é um Algorítmo?)
+
+---
+### (Meu Primeiro Algorítimo)
+
+---
+### (Preparando o Ambiente)
+
+---
+### (**"Hello, World!"** - Meu Primeiro Código)
+
+---
+### (Comandos de Entradas e Operadores Matemáticos)
+
+---
+### ( Listas - ArrayList )
+
+---
+
+
+---
+### OPERADORES LÓGICOS E RELACIONAIS
+
+* Comparar se é igual:
+            
+                ==
+
+ **Exemplo:**
+
+```Javascript
+var n1 = 10
+if(n1 == 10){
+    alert(`N1 é Igual a 10`)
+}
+
+
+```
+
+* Comparar se é diferemte:
+
+                !=
+
+ **Exemplo:**
+
+```Javascript
+var n1 = 10
+if(n1 != 10){
+    alert(`N1 é DIFERENTE de 10`)
+}
+
+```
+
+* Compara se é Maior: 
+
+                >
+
+ **Exemplo:**
+
+```Javascript
+var n1 = 10
+if(n1 > 10){
+    alert(`N1 é MAIOR que 10`)
+}
+
+
+```
+* Compara se é Menor: 
+
+                <
+
+ **Exemplo:**
+
+```Javascript
+var n1 = 10
+if(n1 < 10){
+    alert(`N1 é Menor que 10`)
+}
+
+
+```
+* Compara se é Menor ou Igual: 
+
+                <=
+ **Exemplo:**
+
+```Javascript
+var n1 = 10
+if(n1 <= 10){
+    alert(`N1 é MENOR ou IGUAL a 10`)
+}
+
+
+```
+* Compara se é Maior ou Igual:
+
+                >=
+**Exemplo:**
+
+```Javascript
+var n1 = 10
+if(n1 >= 10){
+    alert(`N1 é MAIOR ou IGUAL a 10`)
+}
+
+
+```
+
+### DUPLA COMPARAÇÃO:
+
+* AND (E):    
+
+&&
+
+
+```Javascript
+var sensor1 = true
+var sensor2 = false
+if(sensor1 == true && sensor2 == false){
+    alert(`sensor1 é VERDADEIRO e sensor2 é FALSO)
+}
+
+
+```
+
+* OR  (OU):
+
+||
+
+
+```Javascript
+var sensor1 = false
+var sensor2 = false
+if(sensor1 == true || sensor2 == false){
+    //O teste lógico é VERDADEIRO
+    alert(`sensor1 é FALSO, mas sensor2 é FALSO)
+    
+}
+
+
+```
+---
+(Estruturas condicionais)
+
+
+
+---
+(Estruturas condicionais II - "IF" Encadeados)
+
+---
+(Estruturas de Repetição - "While")
+
+---
+(Estruturas de Repetição II -FOR)
+
+---
+(Estruturas de Repetição III - FOR EACH)
+
+---
+(Procedimentos)
+
+---
+(Funções)
+
+---
+---
+## PROGRAMAÇÃO ORIENTADA A OBJETOS
+
+
+
+
+
+---
+---
+
+
+
+
+
+
+
 ## Exercício - 01
 Fonte: http://www.bosontreinamentos.com.br/programacao-em-javascript/exercicios-de-javascript-resolvidos-funcoes/
 

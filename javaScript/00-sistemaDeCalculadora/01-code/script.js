@@ -44,11 +44,21 @@ function calcularAreaCirculo(){
 
     // Devolve valor
     window.document.getElementById("resAreaCirculo").innerText = Resposta
+    //---ATENÇÃO: Precisa colocar na resposta a descrição "cm²"
 }
 
 
 //-----------------------------------------------------------------------------------
 
 function calcularVolumeEsfera(){
+    //Recebe os dados
+    var raioCirculo = window.document.getElementById("txtRaioEsfera").value
+
+    //Processa os dados
     
+
+
+    //Devolve Valor
+    window.document.getElementById("resVolumeEsfera").innerText = "Resposta"
+    //---ATENÇÃO: Precisa colocar na resposta a descrição "cm³"
 }

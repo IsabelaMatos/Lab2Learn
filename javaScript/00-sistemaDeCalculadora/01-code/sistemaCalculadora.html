@@ -19,6 +19,7 @@
             align-items: center;
             justify-content: center;
             height: 100vh;
+            padding: 10px;
         }
 
         .conteudo {
@@ -31,7 +32,10 @@
            
             background-color: rgb(224, 19, 221);
             border: 2px;
+            border-color: black;
             box-shadow: -10pt -10pt #29f6f3;
+            padding: 10px;
+            
         }
 
     </style>
@@ -40,14 +44,27 @@
 
     <div class="conteudo">
         <h1>Calcular a Área do Círculo (cm²)</h1>
-        A fórmula para se calcular a área do círculo é:
-        <b>A = pi . r²</b>
+        A fórmula para calcular a área do círculo é:
+        <b>A = π . r²</b>
         <p></p>   
         <Label>Raio do Círculo</Label>
         <input id="txtRaioCirculo" type="number">
         <button onclick="calcularAreaCirculo()">Calcular Área do Círculo</button>
         
-        <h2 id="resAreaCirculo">Resposta</h2>
+        <h2 id="resAreaCirculo">Resposta cm²</h2>
+    </div>
+
+
+    <div class="conteudo">
+        <h1>Calcular o VOLUME da Esfera (cm³) </h1>
+        A fórmula para calcular o Volume da Esfera é:
+        <b>V = 4 / 3 π r³</b>
+        <p></p>   
+        <Label>Raio da ESFERA</Label>
+        <input id="txtRaioEsfera" type="number">
+        <button onclick="calcularVolumeEsfera()">Volume da Esfera</button>
+        
+        <h2 id="resVolumeEsfera">Resposta cm³</h2>
     </div>
 
 
