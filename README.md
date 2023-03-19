@@ -52,7 +52,7 @@ Esse material está sendo desenvolvido como "Guia de Aprendizado" de lógica de 
 
 * Comparar se é igual:
             
-                ==
+==
 
  **Exemplo:**
 
