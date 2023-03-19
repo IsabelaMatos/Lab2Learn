@@ -54,85 +54,86 @@ Esse material está sendo desenvolvido como "Guia de Aprendizado" de lógica de 
             
     ==
 
- **Exemplo:**
+    **Exemplo:**
 
-```Javascript
-var n1 = 10
-if(n1 == 10){
-    alert(`N1 é Igual a 10`)
-}
+    ```Javascript
+    var n1 = 10
+    if(n1 == 10){
+        alert(`N1 é Igual a 10`)
+    }
 
 
-```
+    ```
 
 * Comparar se é diferemte:
 
     !=
 
- **Exemplo:**
+    **Exemplo:**
 
-```Javascript
-var n1 = 10
-if(n1 != 10){
-    alert(`N1 é DIFERENTE de 10`)
-}
+    ```Javascript
+    var n1 = 10
+    if(n1 != 10){
+        alert(`N1 é DIFERENTE de 10`)
+    }
 
-```
+    ```
 
 * Compara se é Maior: 
 
-    >
+    #### >
+    **Exemplo:**
 
- **Exemplo:**
-
-```Javascript
-var n1 = 10
-if(n1 > 10){
-    alert(`N1 é MAIOR que 10`)
-}
+    ```Javascript
+    var n1 = 10
+    if(n1 > 10){
+        alert(`N1 é MAIOR que 10`)
+    }
 
 
-```
+    ```
 * Compara se é Menor: 
 
     <
+    
+    **Exemplo:**
 
- **Exemplo:**
-
-```Javascript
-var n1 = 10
-if(n1 < 10){
-    alert(`N1 é Menor que 10`)
-}
+    ```Javascript
+    var n1 = 10
+    if(n1 < 10){
+        alert(`N1 é Menor que 10`)
+    }
 
 
-```
+    ```
 * Compara se é Menor ou Igual: 
 
     <=
- **Exemplo:**
 
-```Javascript
-var n1 = 10
-if(n1 <= 10){
-    alert(`N1 é MENOR ou IGUAL a 10`)
-}
+    **Exemplo:**
+
+    ```Javascript
+    var n1 = 10
+    if(n1 <= 10){
+        alert(`N1 é MENOR ou IGUAL a 10`)
+    }
 
 
-```
+    ```
 * Compara se é Maior ou Igual:
 
-    >=
-**Exemplo:**
+    #### >=
 
-```Javascript
-var n1 = 10
-if(n1 >= 10){
-    alert(`N1 é MAIOR ou IGUAL a 10`)
-}
+    **Exemplo:**
+
+    ```Javascript
+    var n1 = 10
+    if(n1 >= 10){
+        alert(`N1 é MAIOR ou IGUAL a 10`)
+    }
 
 
-```
+    ```
 
 ### DUPLA COMPARAÇÃO:
 
@@ -140,33 +141,34 @@ if(n1 >= 10){
 
     &&
 
+    **Exemplo:**
 
-```Javascript
-var sensor1 = true
-var sensor2 = false
-if(sensor1 == true && sensor2 == false){
-    alert(`sensor1 é VERDADEIRO e sensor2 é FALSO)
-}
+    ```Javascript
+    var sensor1 = true
+    var sensor2 = false
+    if(sensor1 == true && sensor2 == false){
+        alert(`sensor1 é VERDADEIRO e sensor2 é FALSO)
+    }
 
 
-```
+    ```
 
 * OR  (OU):
 
     ||
 
+    **Exemplo:**
+    ```Javascript
+    var sensor1 = false
+    var sensor2 = false
+    if(sensor1 == true || sensor2 == false){
+        //O teste lógico é VERDADEIRO
+        alert(`sensor1 é FALSO, mas sensor2 é FALSO)
+        
+    }
 
-```Javascript
-var sensor1 = false
-var sensor2 = false
-if(sensor1 == true || sensor2 == false){
-    //O teste lógico é VERDADEIRO
-    alert(`sensor1 é FALSO, mas sensor2 é FALSO)
-    
-}
 
-
-```
+    ```
 ---
 (Estruturas condicionais)
 
