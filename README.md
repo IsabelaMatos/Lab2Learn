@@ -67,7 +67,7 @@ if(n1 == 10){
 
 * Comparar se é diferemte:
 
-                !=
+    !=
 
  **Exemplo:**
 
@@ -81,7 +81,7 @@ if(n1 != 10){
 
 * Compara se é Maior: 
 
-                >
+    >
 
  **Exemplo:**
 
@@ -95,7 +95,7 @@ if(n1 > 10){
 ```
 * Compara se é Menor: 
 
-                <
+    <
 
  **Exemplo:**
 
@@ -109,7 +109,7 @@ if(n1 < 10){
 ```
 * Compara se é Menor ou Igual: 
 
-                <=
+    <=
  **Exemplo:**
 
 ```Javascript
@@ -122,7 +122,7 @@ if(n1 <= 10){
 ```
 * Compara se é Maior ou Igual:
 
-                >=
+    >=
 **Exemplo:**
 
 ```Javascript
@@ -138,7 +138,7 @@ if(n1 >= 10){
 
 * AND (E):    
 
-&&
+    &&
 
 
 ```Javascript
@@ -153,7 +153,7 @@ if(sensor1 == true && sensor2 == false){
 
 * OR  (OU):
 
-||
+    ||
 
 
 ```Javascript
