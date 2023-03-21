@@ -36,29 +36,33 @@ function calcularAreaCirculo(){
     var Resposta = pi*raioCirculo**2
 
     if (raioCirculo == null || raioCirculo == 0) {
-        alert("Digite um número válido")
+        alert("Digite ussm número válido")
     } else {
-        
+        window.document.getElementById("resAreaCirculo").innerText = Resposta
     }
 
 
-    // Devolve valor
-    window.document.getElementById("resAreaCirculo").innerText = Resposta
-    //---ATENÇÃO: Precisa colocar na resposta a descrição "cm²"
+
 }
 
 
 //-----------------------------------------------------------------------------------
 
 function calcularVolumeEsfera(){
-    //Recebe os dados
-    var raioCirculo = window.document.getElementById("txtRaioEsfera").value
+    // receber dados
+    var raioEsfera = window.document.getElementById("txtRaioEsfera").value
 
-    //Processa os dados
+    // processar dados
+     let resVolumeEsfera = (4 * pi * raioEsfera**3) / 3
+     if (raioEsfera == null || raioEsfera == 0) {
+        alert(" Digite um número válido")
+     } else {
+        // mostrar dados ( fazer conta )
+        window.document.getElementById("resVolumeEsfera").innerText = resVolumeEsfera
+     }
+
+
     
-
-
-    //Devolve Valor
-    window.document.getElementById("resVolumeEsfera").innerText = "Resposta"
-    //---ATENÇÃO: Precisa colocar na resposta a descrição "cm³"
+    
+    
 }
