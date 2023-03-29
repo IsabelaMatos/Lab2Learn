@@ -7,12 +7,51 @@
     <title>Sistema de Calcular</title>
     <script src="script.js"></script>
 
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #050cd2;
+            color: #050cd2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            }
+
+        div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 300pt;
+            width: 200pt;
+           
+            background-color: rgb(224, 19, 221);
+            border: 2px;
+            box-shadow: -10pt -10pt #29f6f3;
+        }
+
+        .logo{
+            width: 50pt;
+            height: 50pt;
+        }
+
+    </style>
+
+
+
+
 </head>
 <body>
-
-    <label>Senha</label>
+<div>
+    <img src="img/desbloquear.png" alt="" class="logo">
+    
+    <h3><label>Palavra Chave</label></h3>
     <input id="txtSenha"type="password">
+    <p></p>
     <button id="btnEntrar" onclick="login()">Entrar</button>
+    
+</div>
     
 </body>
 </html>

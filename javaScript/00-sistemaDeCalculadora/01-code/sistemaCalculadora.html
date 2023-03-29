@@ -4,11 +4,69 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sistema de Caculadora</title>
+    <title>Sistema de Cacular</title>
+    <script src="script.js"></script>
+
+    <style>
+
+        body {
+
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #050cd2;
+            color: #050cd2;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            padding: 10px;
+        }
+
+        .conteudo {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 400pt;
+            width: 500pt;
+           
+            background-color: rgb(224, 19, 221);
+            border: 2px;
+            border-color: black;
+            box-shadow: -10pt -10pt #29f6f3;
+            padding: 10px;
+            
+        }
+
+    </style>
 </head>
 <body>
 
-    <h1>Nosso sistema de Calculadora</h1>
-    
+    <div class="conteudo">
+        <h1>Calcular a Área do Círculo (cm²)</h1>
+        A fórmula para calcular a área do círculo é:
+        <b>A = π . r²</b>
+        <p></p>   
+        <Label>Raio do Círculo</Label>
+        <input id="txtRaioCirculo" type="number">
+        <button onclick="calcularAreaCirculo()">Calcular Área do Círculo</button>
+        
+        <h2 id="resAreaCirculo">Resposta cm²</h2>
+    </div>
+
+
+    <div class="conteudo">
+        <h1>Calcular o VOLUME da Esfera (cm³) </h1>
+        A fórmula para calcular o Volume da Esfera é:
+        <b>V = 4 / 3 π r³</b>
+        <p></p>   
+        <Label>Raio da ESFERA</Label>
+        <input id="txtRaioEsfera" type="number">
+        <button onclick="calcularVolumeEsfera()">Volume da Esfera</button>
+        
+        <h2 id="resVolumeEsfera">Resposta cm³</h2>
+    </div>
+
+
 </body>
 </html>
